@@ -1,11 +1,18 @@
 ---
-nome: Automatico Reboot
+title: "Mikrotik Scripts: Reinicialização Automática Programada"
+date_created: 2026-08-17
 tags:
-  - rede/mikrotik/scripts
+  - rede/mikrotik
+  - rede/scripts
 ---
-# Automatic reboot mikrotik
 
-## Script
+# 💻 Mikrotik Scripts: Reinicialização Automática Programada
+
+> [!info] Script e agendador para automatizar o reboot periódico do roteador, otimizando o uso de memória do RouterOS.
+
+---
+
+## 🔌 Script
 ```bash
 system script
 
@@ -20,7 +27,7 @@ add dont-require-permissions=no name=automatic_reboot owner=suporte policy=\
 
 ```
 
-## Scheduler
+## ⚙️ Scheduler
 ```bash
 system scheduler
 
@@ -35,3 +42,6 @@ add interval=1d name=schedule_automatic_reboot on-event=\
 ```
 
 
+## 🔗 Notas Relacionadas
+- [Rede: Guia Principal de Referência de Conhecimento](../README.md) — Índice geral de notas de infraestrutura de redes.
+- [Mikrotik Básico: Script de Configuração SXT (2016)](../01_mikrotik_basico/13_script_sxt_2016.md) — Script básico de provisionamento de antena SXT.

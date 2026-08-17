@@ -1,11 +1,15 @@
 ---
-title: " DNS AdGuard Home"
+title: "DNS: Guia Completo do AdGuard Home"
+date_created: 2026-08-17
 tags:
   - rede/dns
-  - rede/firewall
-sources:
-  - https://youtu.be/r5J9gGQVXM0?si=vuPeV20ZMzYEHX-E
-  - https://youtu.be/B2V_8M9cjYw?si=tBXXPEFZeNUq6Qwa
+  - rede/seguranca
+---
+
+# 🔌 DNS: Guia Completo do AdGuard Home
+
+> [!info] Instalação e configuração do AdGuard Home como servidor DNS local para filtragem de anúncios e controle parental.
+
 ---
 
 Os endereços IP públicos do AdGuard DNS variam conforme o nível de filtragem desejado:
@@ -15,3 +19,8 @@ Os endereços IP públicos do AdGuard DNS variam conforme o nível de filtrage
 - **Sem Filtragem** (apenas resolução de DNS): IPv4 **94.140.14.140** e **94.140.14.141**; IPv6 **2a10:50c0::1:ff** e **2a10:50c0::2:ff**. 
 
 Para dispositivos Android 9+, é possível usar o **DNS Privado** configurando o nome de host **dns.adguard.com**.
+
+
+## 🔗 Notas Relacionadas
+- [Rede: Guia Principal de Referência de Conhecimento](../README.md) — Índice geral de notas de infraestrutura de redes.
+- [Mikrotik Básico: Configuração de Servidor DNS Local](../01_mikrotik_basico/10_servidor_dns_mikrotik.md) — Configuração básica de DNS local no Mikrotik.

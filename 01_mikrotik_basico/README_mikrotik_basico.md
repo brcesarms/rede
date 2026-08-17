@@ -1,11 +1,18 @@
 ---
-title: Mikrotik Basico
+title: "Mikrotik Básico: Guia de Referência de Configurações"
+date_created: 2026-08-17
 tags:
   - rede/mikrotik
   - rede
 ---
 
-* [01 - IP DNS POOL DHCP](01_mikrotik_basico/01_ip_dns_pool_dhcp.md)
+# 🛣️ Mikrotik Básico: Guia de Referência de Configurações
+
+> [!info] Índice estruturado de tópicos de Mikrotik Básico cobrindo DHCP, DNS, segurança, NAT e administração.
+
+---
+
+* [01 - IP DNS POOL DHCP](01_ip_dns_pool_dhcp.md)
 * [02 - Alterando Usuário Senha](02_alterando_usuário_senha.md)
 * [03 - NAT](03_nat.md)
 * [04 - DMZ](04_dmz.md)
@@ -18,3 +25,8 @@ tags:
 * [11 - Habilitar Romon](11_habilitar_romon.md)
 * [12 - Acesso SSH Mikrotik Via Terminal Linux](12_acesso_ssh_mikrotik_via_terminal_linux.md)
 * [13 - Script SXT 2016](13_script_sxt_2016.md)
+
+
+## 🔗 Notas Relacionadas
+- [Rede: Guia Principal de Referência de Conhecimento](../README.md) — Índice geral de notas de infraestrutura de redes.
+- [Mikrotik Básico: Configuração de IP, DNS, Pool e DHCP](01_ip_dns_pool_dhcp.md) — Configuração básica de IP, DNS, Pool e DHCP no Mikrotik.

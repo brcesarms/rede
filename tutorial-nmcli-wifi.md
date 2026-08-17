@@ -1,17 +1,17 @@
 ---
 title: "Tutorial: Varredura e Seleção do Melhor Canal Wi-Fi no Linux com nmcli"
+date_created: 2026-08-17
 tags:
-  - wifi
-  - nmcli
-  - linux
-  - redes
-sources:
-  - https://broadbandnow.com/guides/best-wi-fi-channels
-  - https://www.ekahau.com/blog/channel-planning-best-practices-for-better-wi-fi/
-  - https://www.intel.com/content/www/us/en/support/articles/000058989/wireless/intel-killer-wi-fi-products.html
-  - https://networkmanager.dev/docs/api/latest/nmcli.html
+  - rede/wifi
+  - rede/linux
+  - rede/nmcli
 ---
-# 📶 Guia Prático: Como Escolher o Melhor Canal Wi-Fi no Linux com `nmcli`
+
+# 📶 Tutorial: Varredura e Seleção do Melhor Canal Wi-Fi no Linux com nmcli
+
+> [!info] Guia prático de varredura de canais de redes sem fio no Linux utilizando o utilitário nmcli para otimizar o sinal e evitar interferências.
+
+---
 
 Este guia foi estruturado no formato Markdown ideal para ser importado diretamente no seu cofre do **Obsidian**. Ele combina os comandos práticos do `nmcli` com as melhores diretrizes de redes sem fio para otimizar a estabilidade e velocidade da sua rede doméstica.
 
@@ -60,7 +60,7 @@ nmcli -f SSID,BSSID,CHAN,SIGNAL,BAR-SIGNAL device wifi list
 
 ```
 
-### Exemplo de saída gerada:
+### ⚙️ Exemplo de saída gerada:
 ```text
 SSID              BSSID              CHAN  SIGNAL  BAR-SIGNAL 
 MinhaRede_2G      00:11:22:33:44:55  6     95%     ▂▄▆█       
@@ -119,3 +119,8 @@ nmcli device wifi hotspot channel <numero_do_canal>
 
 ---
 *Manual técnico do `nmcli` integrado com as diretrizes oficiais de suporte da Intel, Ekahau e BroadbandNow.*
+
+
+## 🔗 Notas Relacionadas
+- [Rede: Guia Principal de Referência de Conhecimento](README.md) — Índice principal de tópicos de infraestrutura de redes.
+- [Mikrotik Wireless: Análise Espectral de Radiofrequência](04_mikrotik_wireless/02_analise_espectral.md) — Uso do recurso de Spectral Scan no Mikrotik para diagnóstico de interferências de RF.

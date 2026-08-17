@@ -1,12 +1,18 @@
 ---
-title: Mikrotik Basico - Script SXT 2016
+title: "Mikrotik Básico: Script de Configuração SXT (2016)"
+date_created: 2026-08-17
 tags:
-  - rede/mikrotik/scripts
+  - rede/mikrotik
+  - rede/scripts
 ---
 
-# SCRIPT-SXT-25-11-2016
+# 💻 Mikrotik Básico: Script de Configuração SXT (2016)
 
-## Este script contem algumas configurações básicas para SXT
+> [!info] Script pré-definido para configuração rápida e padronizada de equipamentos Mikrotik SXT.
+
+---
+
+## 🔌 Este script contem algumas configurações básicas para SXT
 ```
 /ip firewall nat 
 add action=masquerade chain=srcnat log-prefix="" 
@@ -38,3 +44,8 @@ add address=192.168.1.0/24 gateway=192.168.1.1
 /user 
 remove admin 
 ```
+
+
+## 🔗 Notas Relacionadas
+- [Mikrotik Básico: Guia de Referência de Configurações](README_mikrotik_basico.md) — Índice de tópicos de Mikrotik Básico.
+- [Mikrotik Scripts: Reinicialização Automática Programada](../05_mikrotik_scripts/automatic_reboot.md) — Script de reinicialização programada no Mikrotik.

@@ -1,4 +1,17 @@
-# rede_eve_ng
+---
+title: "EVE-NG: Emulador de Redes para Laboratórios"
+date_created: 2026-08-17
+tags:
+  - rede/eve-ng
+  - rede/simulacao
+---
+
+# 🛠️ EVE-NG: Emulador de Redes para Laboratórios
+
+> [!info] Instruções e comandos essenciais para provisionamento e uso do emulador de redes físicas EVE-NG.
+
+---
+
 Simulador de rede EVE NG
 
 
@@ -8,7 +21,7 @@ Simulador de rede EVE NG
 * <https://youtu.be/cj3qsNsBd2A>
 * <https://www.redesbrasil.com/aprenda-a-instalar-e-usar-o-eve-ng-para-emular-roteadores-da-mikrotik/>
 
-## Acesso web:
+## ⚙️ Acesso web:
 
 ```bash
 admin
@@ -20,7 +33,7 @@ eve
 
 ```
 
-## Acesso SSH:
+## 🔑 Acesso SSH:
 
 ```bash
 root
@@ -32,7 +45,7 @@ eve
 
 ```
 
-## 
+## ⚙️ 
 
 ```bash
 mkdir -p /opt/unetlab/addons/qemu/mikrotik-6.49.10
@@ -64,3 +77,6 @@ rm -rf chr*
 
 ```
 
+
+## 🔗 Notas Relacionadas
+- [Rede: Guia Principal de Referência de Conhecimento](../README.md) — Índice geral de notas de infraestrutura de redes.
